@@ -749,8 +749,12 @@ input[type='radio'] {
   }
 
   .title {
-    font-size: 1.2rem;
-    padding-top: 2vh;
+    font-size: 1.4rem;
+    padding-top: 1vh;
+  }
+
+  .navbar {
+    border: 1px solid black;
   }
 
   hr, .hr2 {
@@ -758,8 +762,8 @@ input[type='radio'] {
   }
 
   .menuBar {
-    font-size: 25px;
-    margin-top: 15px;
+    font-size: 30px;
+    margin-top: 10px;
   }
 
   #indexBanner2 {
@@ -778,13 +782,11 @@ input[type='radio'] {
 
   .mainButtons {
     margin-top: 25px;
-    margin-left: 5%;
   }
 
   #events {
-    padding-right: 22%;
+    padding-right: 70px;
   }
-
 
   .facebookButton {
       font-size: 1.05rem;
