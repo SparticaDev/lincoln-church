@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css?v=1.0">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <title>Lincoln Church of Christ</title>
+</head>
+
+
+<body>
+
+  <header class="navbar">
+    <div id="mySidenav" class="sidenav">
+      <div class="sidenav-content">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a class="menuOptions" href="index.html">Home</a>
+      <a class="menuOptions" href="about.html">About</a>
+      <a class="menuOptions" target="_blank" href="https://apologeticspress.org">Apologetics Press</a>
+      <a class="menuOptions" target="_blank" href="https://www.facebook.com/people/Lincoln-Church-of-Christ/100093939099919/">Facebook</a>
+      <div class="dropdown">
+        <button class="dropbtn" onclick="toggleDropdown('dropdown1')">Members
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content" id="dropdown1">
+          <a href="https://members.instantchurchdirectory.com" target="_blank">Directory</a>
+        </div>
+        </div>
+      <a class="menuOptions" target="_blank" href="https://housetohouse.com">House to House / Heart to Heart</a>
+      <a class="menuOptions" target="_blank" href="https://worldbibleschool.org">World Bible School</a>
+      <div class="dropdown">
+        <button class="dropbtn" onclick="toggleDropdown('dropdown2')">Need Assistance?
+        </button>
+        <div class="dropdown-content" id="dropdown2">
+          <a href="PrayerRequests.html">Prayer Requests</a>
+          <a href="bibleStudy.html">Bible Study</a>
+          <a href="foodAssistance.html">Food Assistance</a>
+          <a href="#">Other Available Assistance</a>
+        </div>
+        </div> 
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+
+    <span class="menuBar" style="cursor:pointer" onclick="openNav()">&#9776;</span>
+
+   <a class="title" href="index.html"><h1 class="title">Lincoln Church of Christ</h1></a>
+  </header>
+
+  <section> <h2 class="welcomeBanner" id="aboutBanner">Visit Us!</h2></section>
+  <section><h2 class="welcomeBanner2" id="visitBanner2">Join us in our next service</h2></section>
+
+
+<section class="mapInfo">
+
+  <div class="mapChild1">
+  <div class="sundayBanner">
+    <h2 class="sbText">Sunday's:</h2>
+    <h2 class="sbText">10:00 a.m.</h2>
+  </div>
+</div>
+
+<div class="mapChild2">
+  <div class="map2">
+  <iframe class="map3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.2935302762!2d-86.58674992392957!3d34.748197972902865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88626b4a74c6dac5%3A0xa9543d7c802a97fa!2sLincoln%20Church%20of%20Christ!5e0!3m2!1sen!2sus!4v1725410378711!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</div>
+
+</section>
+
+<section> <h2 class="recentService">A Recent Service:</h2></section>
+
+
+<section class="streamParent">
+  <div class="streamChild">
+    <div class="stream"><iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F100093939099919%2Fvideos%2F1015426606722751%2F&show_text=false&width=267&t=2050" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe></div>
+  </div>
+</section>
+
+<div class="followUsParent"><button id="facebookButton" class="followUs">Follow Us</button></div>
+
+<footer>Lincoln Church of Christ</footer>
+
+  <script src="logic.js"></script>
+</body>
+</html>

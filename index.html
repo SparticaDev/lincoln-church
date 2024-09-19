@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css?v=1.0">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <title>Lincoln Church of Christ</title>
+</head>
+
+
+
+<body>
+
+  <header class="navbar">
+    <div id="mySidenav" class="sidenav">
+      <div class="sidenav-content">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a class="menuOptions" href="about.html">About</a>
+      <a class="menuOptions" target="_blank" href="https://apologeticspress.org">Apologetics Press</a>
+      <a class="menuOptions" target="_blank" href="https://www.facebook.com/people/Lincoln-Church-of-Christ/100093939099919/">Facebook</a>
+      <div class="dropdown">
+        <button class="dropbtn" onclick="toggleDropdown('dropdown1')">Members
+        </button>
+        <div class="dropdown-content" id="dropdown1">
+          <a href="https://members.instantchurchdirectory.com" target="_blank">Directory</a>
+        </div>
+        </div>
+      <a class="menuOptions" target="_blank" href="https://housetohouse.com">House to House / Heart to Heart</a>
+      <a class="menuOptions" target="_blank" href="https://worldbibleschool.org">World Bible School</a>
+      <div class="dropdown">
+        <button class="dropbtn" onclick="toggleDropdown('dropdown2')">Need Assistance?
+        </button>
+        <div class="dropdown-content" id="dropdown2">
+          <a href="PrayerRequests.html">Prayer Requests</a>
+          <a href="bibleStudy.html">Bible Study</a>
+          <a href="foodAssistance.html">Food Assistance</a>
+          <a href="otherAvailableAssistance.html">Other Available Assistance</a>
+        </div>
+        </div> 
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+
+    <span class="menuBar" style="cursor:pointer" onclick="openNav()">&#9776;</span>
+
+   <a class="title" href="index.html"><h1 class="title">Lincoln Church of Christ</h1></a>
+  </header>
+
+
+
+  <section class="image">
+    <h2 class="welcomeBanner" id="indexBanner">Welcomes You!</h2>
+    <h2 class="welcomeBanner2" id="indexBanner2">Discover the truth that resides within</h2>
+
+    <button id="visitUs" class="mainButtons" >Visit Us!</button>
+    <button id="events" class="mainButtons">Events!</button>
+  </section>
+
+  <section>
+
+    <div class="facebook"><button id="facebookButton" class="facebookButton">Follow us on Facebook!</button></div>
+
+  </section>
+
+  <hr>
+
+  <section class="sessions">
+    <h2 class="sessionTimes">Service Times:</h2>
+    
+    <section class="allTimes">
+    <article class="item"><p class="day">Sunday's</p></article>
+    <article class="item"><p class="activity">Worship</p><p class="time">10:00 a.m.</p></article>
+    <article class="item"><p class="activity">Bible Class</p><p class="time">1:00 p.m.</p></article>
+    <article class="item"><p class="day">Wednesday's</p></article>
+    <article class="item"><p class="activity">Bible Study</p><p class="time">6:00 p.m.</p> </article>
+  </section>
+
+  </section>
+
+  <hr>
+
+  <section class="location">
+
+    <h2 class="address">Contact Us:</h2>
+    <p class="info">256-536-7211</p>
+    <p class="info">1307 Meridian St N</p>
+    <p class="info">Huntsville, AL 35801</p>
+
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.2935302762!2d-86.58674992392957!3d34.748197972902865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88626b4a74c6dac5%3A0xa9543d7c802a97fa!2sLincoln%20Church%20of%20Christ!5e0!3m2!1sen!2sus!4v1725410378711!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+  </section>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+
+  <footer>Lincoln Church of Christ</footer>
+
+
+  <script src="logic.js"></script>
+</body>
+</html>

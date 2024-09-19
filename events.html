@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <title>Lincoln Church of Christ</title>
+</head>
+
+<body>
+
+  <header class="navbar">
+    <div id="mySidenav" class="sidenav">
+      <div class="sidenav-content">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a class="menuOptions" href="index.html">Home</a>
+      <a class="menuOptions" href="about.html">About</a>
+      <a class="menuOptions" target="_blank" href="https://apologeticspress.org">Apologetics Press</a>
+      <a class="menuOptions" target="_blank" href="https://www.facebook.com/people/Lincoln-Church-of-Christ/100093939099919/">Facebook</a>
+      <div class="dropdown">
+        <button class="dropbtn" onclick="toggleDropdown('dropdown1')">Members
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content" id="dropdown1">
+          <a href="https://members.instantchurchdirectory.com" target="_blank">Directory</a>
+        </div>
+        </div>
+      <a class="menuOptions" target="_blank" href="https://housetohouse.com">House to House / Heart to Heart</a>
+      <a class="menuOptions" target="_blank" href="https://worldbibleschool.org">World Bible School</a>
+      <div class="dropdown">
+        <button class="dropbtn" onclick="toggleDropdown('dropdown2')">Need Assistance?
+        </button>
+        <div class="dropdown-content" id="dropdown2">
+          <a href="PrayerRequests.html">Prayer Requests</a>
+          <a href="bibleStudy.html">Bible Study</a>
+          <a href="foodAssistance.html">Food Assistance</a>
+          <a href="otherAvailableAssistance.html">Other Available Assistance</a>
+        </div>
+        </div> 
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+
+    <span class="menuBar" style="cursor:pointer" onclick="openNav()">&#9776;</span>
+
+   <a class="title" href="index.html"><h1 class="title">Lincoln Church of Christ</h1></a>
+  </header>
+
+  <section>
+    <h2 class="upcomingEvents">Upcoming Events</h2>
+  </section>
+
+  <section class="calendarParent">
+  <div><iframe class="calendar" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FChicago&bgcolor=%23ffffff&showTitle=0&showCalendars=0&showTz=0&showTabs=0&showPrint=0&src=OGJhYjQwZjNhM2Q3MmM0ZjI3NGE3ZmEyNWYyZTViMGUxMDM0OWU1MGM2MGJmY2MxYjIzNjdiNTliZmM0YmNkNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%233F51B5" style="border:solid 1px #777" frameborder="0" scrolling="no"></iframe></div>
+  </section>
+
+  <footer>Lincoln Church of Christ</footer>
+  <script src="logic.js"></script>
+</body>
+</html>

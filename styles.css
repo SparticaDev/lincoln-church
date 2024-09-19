@@ -1,0 +1,1000 @@
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 1.82px 0.18px rgba(0, 0, 0, 0.44);
+  background-color: #ffffff;
+}
+
+
+
+.title {
+  font-weight: 25;
+  text-decoration: none;
+}
+
+.title, .verse, .downloadPamphletText, .sbText, .recentService, .sessionTimes, .churchInfoText, .downloadPamphlet {
+  text-align: center;
+  color: #215a68;
+}
+
+.title, .allTimes, .followUs, .bestTime, .preference {
+  font-size: 1.75rem;
+}
+
+.menuBar {
+  position: absolute;
+  top: 5px; 
+  left: 15px; 
+  cursor: pointer;
+}
+
+.menuBar:hover, .thanksHomeBtn:hover, .sidenav a:hover {
+  color: lightgray
+
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #f7f7f7;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  box-shadow: 0px 4px 1.82px 1.5px rgba(0, 0, 0, 0.44);
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 50;
+  color: #215a68;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.menuOptions {
+  margin-top: 25px;
+}
+
+.dropdown {
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: #215a68;
+  background-color: inherit;
+  margin: 25px;
+  margin-bottom: -5px;
+  font-size: 1.25rem;
+  font-weight: 50;
+  display: block;
+}
+
+.dropbtn:hover {
+  color: lightgray;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 220px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  max-height: 0;
+  margin:  10px;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #215a68;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+  max-height: 200px;
+}
+
+.menuBar {
+  font-size: 45px;
+}
+
+.image {
+  background: url(images/bible4.png);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 0;
+  
+}
+
+#indexBanner {
+  color: #ffffff;
+  padding-top: 90px;
+  font-size: 3rem;
+}
+
+#aboutBanner {
+  color: #215a68;
+  padding-top: 40px;
+  font-size: 4.5rem;
+  font-style: italic;
+
+}
+
+.welcomeBanner {
+  text-align: center;
+  font-weight: 75;
+}
+
+#indexBanner2 {
+  color: #ffffff;
+  padding-top: -40px;
+  font-size: 2rem;
+}
+
+#aboutBanner2 {
+  color: #215a68;
+  font-size: 2rem;
+  font-style: italic;
+  margin-top: -10px;
+}
+
+#visitBanner2 {
+  color: #215a68;
+  font-size: 2rem;
+  font-style: italic;
+  margin-top: -30px;
+}
+
+.welcomeBanner2 {
+  text-align: center;
+  font-weight: 25;
+}
+
+.mainButtons {
+  margin-top: 225px;
+  margin-left: 22%;
+
+  font-size: 2.5rem;
+  font-style: italic;
+
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+
+  padding: 1.25rem 3rem;
+  border-radius: 30px;
+  background-color: #ffffff;
+  box-shadow: -3.394px 6.122px 28.7px 6.3px rgba(0, 0, 0, 0.44);
+  color: #215a68;
+  border-color: rgb(34, 42, 83);
+  position: relative;
+
+}
+
+.mainButtons:hover, .submit:hover {
+  background-color: lightgray;
+}
+
+.mainButtons:active, .submit:active {
+  background-color: #ffffff;
+}
+
+.facebook {
+  text-align: center;
+  margin-top: -40px;
+}
+
+.facebookButton {
+  font-size: 2.5rem;
+  font-style: italic;
+
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+
+  padding: 1.25rem 3rem;
+  background-color: #ffffff;
+  box-shadow: -3.394px 6.122px 28.7px 6.3px rgba(0, 0, 0, 0.44);
+  color: #215a68;
+  border-color: rgb(34, 42, 83);
+  position: relative;
+}
+
+.facebookButton:hover {
+  background-color: lightgray;
+}
+
+hr {
+  height: 2px;
+  width: 850px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-color: #215a68;
+  border-color: #215a68;
+}
+
+.hr2 {
+  height: 2px;
+  width: 300px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-color: #215a68;
+  border-color: #215a68;
+}
+
+.sessions {
+  text-align: center;
+}
+
+.sessionTimes {
+  font-size: 4rem;
+  font-weight: 75;
+  font-style: italic;
+}
+
+.allTimes {
+  font-weight: 75;
+  font-style: italic;
+  color: #215a68;
+}
+
+.day {
+  margin-bottom: 50px;
+  font-size: 2.5rem;
+
+}
+
+.activity, .time {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.activity {
+  text-align: left;
+  width: 15%;
+}
+
+.time {
+  text-align: right;
+  width: 15%
+}
+
+.location, .location1 {
+  text-align: center;
+}
+
+.location1 {
+  margin-top: 10vh;
+}
+
+.address {
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: 75;
+  color: #215a68;
+}
+
+.info {
+  color: #215a68;
+  font-weight: 50;
+  margin-bottom: 25px;
+}
+
+#myBtn {
+  display: none; 
+  position: fixed;
+  bottom: 45px; 
+  right: 45.5%;
+  z-index: 99; 
+  border: none;
+  outline: none; 
+  background-color: #215a68;
+  color: white; 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 18px;
+  font-style: italic;
+  box-shadow: -3.394px 6.122px 28.7px 6.3px rgba(0, 0, 0, 0.44);
+}
+
+#myBtn:hover {
+  background-color: lightgray;
+}
+
+footer {
+  margin-top: 125px;
+  text-align: center;
+  background-color: #215a68;
+  color: lightgray;
+  font-weight: 20;
+  font-style: italic;
+  font-size: 0.75rem;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+
+.churchPic {
+  height: 320px;
+  width: 22%;
+  background: url(images/church-picture.png);
+  margin: 50px auto 0px auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 0;
+  box-shadow: -3.394px 6.122px 28.7px 6.3px rgba(0, 0, 0, 0.44);
+}
+
+.churchInfo {
+  margin-top: 50px;
+}
+
+.churchInfoText {
+  margin: 1px;
+  font-size: 1.25rem;
+  font-style: italic;
+}
+
+.historyText {
+  width: 50%;
+  margin: auto;
+  padding-bottom: 25px;
+}
+
+.historyParagraph {
+  color: #215a68;
+  font-size: 1.25rem;
+  line-height: 50px;
+  margin-bottom: 100px;
+}
+
+.verse {
+  font-size: 1.25rem;
+  font-style: italic;
+}
+
+.downloadPamphlet {
+  padding-top: 15px;
+  font-size: 4rem;
+  font-style: italic;
+  font-weight: 75;
+}
+
+.downloadPamphletText {
+  font-style: italic;
+}
+
+.pamphletPic {
+  height: 320px;
+  width: 28%;
+  background: url(images/ChurchPamphlet.png);
+  margin: 50px auto 0px auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 0;
+  box-shadow: -3.394px 6.122px 28.7px 6.3px rgba(0, 0, 0, 0.44);
+  cursor: pointer;
+}
+
+.sundayBanner {
+  width: 400px;
+  height: 275px;
+  margin: 40px 20%;
+  background-color: #ffffff;
+  box-shadow: -3.394px 6.122px 28.7px 6.3px rgba(0, 0, 0, 0.44);
+}
+
+.sbText {
+  font-size: 3.75rem;
+  padding-top: 25px;
+  font-weight: 50;
+  margin-bottom: -15px;
+
+}
+
+.map {
+  width: 600px;
+  height: 450px;
+}
+
+.map3 {
+  width: 425px;
+  height: 300px;
+}
+
+.mapInfo {
+  height: 40vh;
+  display: flex;
+}
+
+.mapChild1, .mapChild2 {
+  width: 50%;
+
+
+}
+
+.map2 {
+  margin: 40px 20%;
+}
+
+.recentService {
+  font-size: 3rem;
+  font-weight: 50;
+  margin-top: 16vh;
+  
+}
+
+.streamParent {
+  height: 60vh;
+  width: 100%;
+}
+
+.streamChild {
+  height: 20vh;
+  width: 20%;
+  margin: auto;
+  padding-top: 21vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.stream {
+  box-shadow: -3.394px 6.122px 28.7px 6.3px rgba(0, 0, 0, 0.44);
+  background-color: black;
+}
+
+.followUsParent {
+  width: 100%;
+  text-align: center;
+  margin: 8vh 0 -11vh 0;
+}
+
+.followUs {
+  font-style: italic;
+
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+
+  padding: 0.75rem 2.50rem;
+  border-radius: 15px;
+  color: #dcdbdb;
+  background-color: #215a68;
+  box-shadow: -3.394px 6.122px 28.7px 6.3px rgba(0, 0, 0, 0.44);
+  border-color: rgb(34, 42, 83);
+
+}
+
+.followUs:hover {
+  background-color: #286e80;
+  color: #ffffff;
+}
+
+.followUs:active {
+  background-color: #215a68;
+  color: #dcdbdb;
+}
+
+.calendarParent {
+  margin-top: 20vh;
+  text-align: center;
+}
+
+.contactContainer {
+  height: 50vh;
+  margin: 10vh;
+}
+
+.contactParent {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+#contactInputParent{
+  margin: 5px auto 0px auto;
+  width: 100%;
+}
+
+#contactInput::placeholder {
+  color: #215a68;
+  background-color: #ffffff;
+  font-style: italic;
+  font-weight: 20;
+  opacity: 75%;
+}
+
+#contactInput {
+  color: #215a68;
+  border: 2px solid black;
+}
+
+.nameEmailParent {
+  display: flex;
+  height: 7vh;
+}
+
+.messageParent {
+  padding-top: 5vh;
+}
+
+.nameChild, .emailChild {
+  background-color: #ffffff;
+  width: 90%;
+  height: 7vh;
+  box-shadow: -2px 4px 10px 5px rgba(0, 0, 0, 0.44);
+}
+.message, .submit{
+  font-size: 1.5rem;
+}
+
+.name, .email{
+  margin-top: 12.5px;
+  font-size: 1.5rem;
+  width: 425px;
+}
+
+.emailChild {
+  float: right;
+}
+
+.submit {
+  margin: 50px;
+  padding: 0.5rem 3rem;
+  cursor: pointer;
+  background: none;
+}
+
+.messageChild {
+  background-color: #ffffff;
+  box-shadow: -2px 4px 10px 5px rgba(0, 0, 0, 0.44);
+}
+
+.message {
+  margin: 15px;
+}
+
+.thanksHomeBtnParent {
+  text-align: center;
+  margin: 30vh;
+}
+
+.thanksHomeBtn {
+  color: #215a68;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.contactContainer1 {
+  height: 65vh;
+  width: 100%;
+}
+
+.contactParent1 {
+  height: 60vh;
+  width: 50%;
+  margin: auto;
+}
+
+.nameEmailNumberParent1 {
+  height: 250px;
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+.nameParent1, .emailParent1, .numberParent1 {
+  background-color: #ffffff;
+  height: 60px;
+  width: 100%;
+  box-shadow: -2px 1px 5px 2px rgba(0, 0, 0, 0.44);
+}
+
+.emailParent1, .numberParent1 {
+  margin-top: 25px;
+}
+
+.name1, .email1, .number1 {
+  font-size: 1.15rem;
+  margin-top: 12px;
+  width: 360px;
+  height: 30px;
+  font-weight: 20;
+}
+
+.radialParent {
+  background-color: #ffffff;
+  height: 27vh;
+  width: 90%;
+  margin: 5px auto 0px auto;
+  display: flex;
+  box-shadow: -2px 4px 10px 5px rgba(0, 0, 0, 0.44);
+}
+
+.bestTimeParent {
+  height: 100%;
+  width: 50%;
+  margin-left: 20px;
+}
+
+.charityTitle, .foodParagraph, .upcomingEvents, .preference, .bestTime, label {
+  color: #215a68;
+  font-style: italic;
+  font-weight: 50;
+}
+
+.calendar {
+  width: 800px;
+  height: 600px;
+}
+
+label {
+  display: block;
+  font-size: 1.5rem;
+  margin-top: 25px;
+}
+
+.radiobtn {
+  cursor: pointer;
+}
+
+input[type='radio'] {
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+}
+
+.submitParent1 {
+  text-align: center;
+}
+
+.upcomingEvents {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: -125px;
+}
+
+.foodPara {
+  width: 50%;
+  margin: 0px auto 15vh auto;
+  text-align: center;
+}
+
+
+.foodParagraph {
+  font-size: 2rem;
+}
+
+.charityTitle {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.otherAAParent {
+  width: 45%;
+  margin: auto;
+  text-align: center;
+}
+
+.otherAAInfo {
+  color: #215a68;
+  font-weight: 50;
+  font-size: 1.25rem;
+}
+
+/* Media Queries for Mobile Devices */
+@media screen and (max-width: 768px) {
+
+  body {
+    background-color: #ffffff;
+  }
+
+  .allTimes, .followUs, .bestTime, .preference, .verse {
+    font-size: 1.25rem;
+  }
+
+  .title {
+    font-size: 1.2rem;
+    padding-top: 2vh;
+  }
+
+  hr, .hr2 {
+    width: 200px;
+  }
+
+  .menuBar {
+    font-size: 25px;
+    margin-top: 15px;
+  }
+
+  #indexBanner2 {
+    font-size: 1.5rem;
+
+  }
+
+  .sessions {
+    background-color: #ffffff;
+  }
+
+  .image {
+    height: 100vh;
+    width: 100%;
+  }
+
+  .mainButtons {
+    margin-top: 25px;
+    margin-left: 5%;
+  }
+
+  #events {
+    padding-right: 22%;
+  }
+
+
+  .facebookButton {
+      font-size: 1.05rem;
+  }
+
+  .map {
+    width: 250px;
+    height: 225px;
+  }
+
+  .time {
+    width: 55%;
+  }
+
+  #visitBanner2 {
+  margin-top: -30px;
+  }
+
+  #aboutBanner {
+  font-size: 3rem;
+  }
+
+  #aboutBanner2 {
+  font-size: 1.5rem;
+  }
+
+  .churchPic {
+  height: 250px;
+  width: 75%;
+  }
+
+  .churchInfoText {
+    font-size: 1rem;
+  }
+
+  .historyText {
+    width: 80%;
+    font-size: 1rem;
+    padding-bottom: 25px;
+    line-height: 25px;
+  }
+
+  .historyParagraph {
+    margin-bottom: 15px;
+
+  }
+
+  .verse {
+    font-size: 0.75rem;
+    width: 85%;
+    margin: auto;
+  }
+
+  .downloadPamphlet {
+    font-size: 2rem;
+  }
+
+  .pamphletPic {
+    height: 172px;
+    width: 75%;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .calendar {
+    margin-top: 5vh;
+    width: 100%;
+    height: 50vh;
+  }
+
+  .mapChild1, .mapChild2 {
+    width: 50%;
+  }
+
+  .sundayBanner {
+    width: 250px;
+    height: 225px;
+    margin: 40px 20%;
+    background-color: #ffffff;
+    box-shadow: -3.394px 6.122px 28.7px 6.3px rgba(0, 0, 0, 0.44);
+  }
+
+  .sbText {
+    padding-top: 50px;
+    font-size: 2rem;
+  }
+
+  .mapInfo {
+    height: 40vh;
+    display: block;
+    margin-bottom: 80vh;
+  }
+
+  .map3 {
+    width: 250px;
+    height: 225px;
+    margin: auto;
+  }
+
+  .map2 {
+    margin-left: 0 25px;
+  }
+
+  .recentService {
+    margin-top: -25vh;
+    margin-bottom: 20vh;
+  }
+
+  .followUsParent {
+    margin-top: 15vh;
+  }
+
+  .contactContainer {
+    margin: 5vh 0;
+    height: auto; 
+  }
+
+  .contactParent {
+    width: 90%; 
+    margin: 0 auto;
+  }
+
+  .nameEmailParent {
+    display: block;
+    height: auto; 
+  }
+
+  .nameChild, .emailChild {
+    width: 90%; 
+    margin: 10px auto; 
+    height: auto; 
+  }
+
+  .emailChild {
+    float: none; 
+    margin-top: 15px;
+  }
+
+  .name, .email {
+  width: 85%;
+  margin: 10px auto; 
+  font-size: 1rem;
+  }
+
+  .messageParent {
+  height: auto; 
+  }
+
+  .message {
+  width: 85%;
+  margin: 10px auto; 
+  font-size: 1rem;
+  }
+
+  .submit {
+    margin: 20px auto;
+    padding: 0.5rem 2rem;
+  }
+
+  .nameEmailNumberParent1 {
+    height: auto;
+    width: 100%;
+    margin: 10px auto;
+    
+}
+
+.nameParent1, .emailParent1, .numberParent1 {
+    width: 140%;
+    height: auto;
+    margin: 15px -20px;
+}
+
+.name1, .email1, .number1 {
+    width: 90%;
+    margin: 10px auto;
+    height: 40px;
+    font-size: 1rem;
+}
+
+.radialParent {
+    flex-direction: column;
+    height: auto;
+    width: 140%;
+    margin: 15px -20px; 
+}
+
+
+.bestTimeParent {
+    width: 100%;
+    margin-left: 0; 
+}
+
+.bsFooter {
+  margin-top: 300px;
+}
+
+.foodParagraph {
+  font-size: 1.25rem;
+}
+
+.charityTitle {
+  font-size: 2rem;
+}
+
+.otherAAInfo {
+  font-size: 1rem;
+  width: 200px;
+  margin-left: -25px;
+  margin-bottom: 50px;
+}
+
+
+}

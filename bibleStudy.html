@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css?v=1.0">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Lincoln Church of Christ</title>
+</head>
+<body>
+
+  <header class="navbar">
+    <div id="mySidenav" class="sidenav">
+      <div class="sidenav-content">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a class="menuOptions" href="index.html">Home</a>
+      <a class="menuOptions" href="about.html">About</a>
+      <a class="menuOptions" target="_blank" href="https://apologeticspress.org">Apologetics Press</a>
+      <a class="menuOptions" target="_blank" href="https://www.facebook.com/people/Lincoln-Church-of-Christ/100093939099919/">Facebook</a>
+      <div class="dropdown">
+        <button class="dropbtn" onclick="toggleDropdown('dropdown1')">Members
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content" id="dropdown1">
+          <a href="https://members.instantchurchdirectory.com" target="_blank">Directory</a>
+        </div>
+        </div>
+      <a class="menuOptions" target="_blank" href="https://housetohouse.com">House to House / Heart to Heart</a>
+      <a class="menuOptions" target="_blank" href="https://worldbibleschool.org">World Bible School</a>
+      <div class="dropdown">
+        <button class="dropbtn" onclick="toggleDropdown('dropdown2')">Need Assistance?
+        </button>
+        <div class="dropdown-content" id="dropdown2">
+          <a href="PrayerRequests.html">Prayer Requests</a>
+          <a href="foodAssistance.html">Food Assistance</a>
+          <a href="otherAvailableAssistance.html">Other Available Assistance</a>
+        </div>
+        </div> 
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+
+    <span class="menuBar" style="cursor:pointer" onclick="openNav()">&#9776;</span>
+
+   <a class="title" href="index.html"><h1 class="title">Lincoln Church of Christ</h1></a>
+  </header>
+
+
+      <section> <h2 class="welcomeBanner" id="aboutBanner">Bible Study</h2></section>
+      <section><h2 class="welcomeBanner2" id="visitBanner2">Please fill out the following</h2></section>
+
+
+      <div class="contactContainer1">
+
+        <form action="https://api.web3forms.com/submit" method="POST" class="contactParent1">
+            <input type="hidden" name="access_key" value="70521691-05fe-40d5-a597-d9289ddd0155">
+            
+            <div class="nameEmailNumberParent1">
+                <div class="nameParent1"><input class="name1" name="Name:"  id="contactInput" type="text" placeholder=" &nbsp;Name. . ." required></div>
+                <div class="emailParent1"><input class="email1" name="Email:" id="contactInput" type="email" placeholder=" &nbsp;Email. . ." required></div>
+                <div class="numberParent1"><input class="number1" name="Phone Number:" id="contactInput" type="tel" placeholder=" &nbsp;Phone Number. . ." required maxlength="12"></div>
+            </div>
+
+            <div class="radialParent">
+                <div class="bestTimeParent"><h2 class="bestTime">Best Time to Contact?</h2>
+                    <label for="radio1"><input class="radiobtn" type="radio" name="Best Time to Contact:" id="morning" value="Morning" checked> Morning</label>
+                    <label for="radio2"><input class="radiobtn" type="radio" name="Best Time to Contact:" id="Afternoon" value="Afternoon"> Afternoon</label></div>
+                <div class="bestContactParent"><h2 class="preference">Best Way to Contact?</h2>
+                    <label for="radio3"><input class="radiobtn" type="radio" name="Best Way to Contact:" id="email" value="Email" checked> Email</label>
+                    <label for="radio4"><input class="radiobtn" type="radio" name="Best Way to Contact:" id="call" value="Call" > Call</label>
+                    <label for="radio5"><input class="radiobtn" type="radio" name="Best Way to Contact:" id="text" value="Text" > Text</label></div>
+            </div>
+
+            <input type="hidden" name="redirect" value="http://127.0.0.1:5500/thanks.html">
+            <div class="submitParent1" id="contactInputParent"><div class="submitChild"><button class="submit" id="contactInput" type="submit">Submit</button></div></div>
+        </form>
+
+      </div>
+
+
+      <footer class="bsFooter">Lincoln Church of Christ</footer>
+      <script src="logic.js"></script>
+</body>
+</html>

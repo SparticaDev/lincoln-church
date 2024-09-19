@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css?v=1.0">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Lincoln Church of Christ</title>
+</head>
+<body>
+
+  <header class="navbar">
+    <div id="mySidenav" class="sidenav">
+      <div class="sidenav-content">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a class="menuOptions" href="index.html">Home</a>
+      <a class="menuOptions" href="about.html">About</a>
+      <a class="menuOptions" target="_blank" href="https://apologeticspress.org">Apologetics Press</a>
+      <a class="menuOptions" target="_blank" href="https://www.facebook.com/people/Lincoln-Church-of-Christ/100093939099919/">Facebook</a>
+      <div class="dropdown">
+        <button class="dropbtn" onclick="toggleDropdown('dropdown1')">Members
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content" id="dropdown1">
+          <a href="https://members.instantchurchdirectory.com" target="_blank">Directory</a>
+        </div>
+        </div>
+      <a class="menuOptions" target="_blank" href="https://housetohouse.com">House to House / Heart to Heart</a>
+      <a class="menuOptions" target="_blank" href="https://worldbibleschool.org">World Bible School</a>
+      <div class="dropdown">
+        <button class="dropbtn" onclick="toggleDropdown('dropdown2')">Need Assistance?
+        </button>
+        <div class="dropdown-content" id="dropdown2">
+          <a href="bibleStudy.html">Bible Study</a>
+          <a href="foodAssistance.html">Food Assistance</a>
+          <a href="otherAvailableAssistance.html">Other Available Assistance</a>
+        </div>
+        </div> 
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+
+    <span class="menuBar" style="cursor:pointer" onclick="openNav()">&#9776;</span>
+
+   <a class="title" href="index.html"><h1 class="title">Lincoln Church of Christ</h1></a>
+  </header>
+
+
+      <section> <h2 class="welcomeBanner" id="aboutBanner">Prayer Requests</h2></section>
+      <section><h2 class="welcomeBanner2" id="visitBanner2">Please fill out the following</h2></section>
+
+
+      <div class="contactContainer">
+
+        <form action="https://api.web3forms.com/submit" method="POST" class="contactParent">
+            <input type="hidden" name="access_key" value="70521691-05fe-40d5-a597-d9289ddd0155">
+            <div class="nameEmailParent">
+            <div class="nameParent" id="contactInputParent"><div class="nameChild"><input class="name" name="Name:" id="contactInput" type="text" placeholder=" &nbsp;Name. . ." required></div></div>
+            <div class="emailParent" id="contactInputParent"><div class="emailChild"><input class="email" name="Email:" id="contactInput" type="email" placeholder=" &nbsp;Email. . ." required></div></div>
+            </div>
+            <div class="messageParent" id="contactInputParent"><div class="messageChild"><textarea class="message" id="contactInput" name="Prayer Request:" placeholder=" &nbsp;Your Message. . ." id="" cols="90" rows="8" required></textarea></div></div>
+            <!-- Custom Confirmation / Success Page -->
+            <input type="hidden" name="redirect" value="http://127.0.0.1:5500/thanks.html">
+            <div class="submitParent" id="contactInputParent"><div class="submitChild"><button class="submit" id="contactInput" type="submit">Submit</button></div></div>
+
+        </form>
+
+      </div>
+
+      <footer>Lincoln Church of Christ</footer>
+      <script src="logic.js"></script>
+</body>
+</html>
