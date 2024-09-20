@@ -749,8 +749,8 @@ input[type='radio'] {
   }
 
   .title {
-    font-size: 1.4rem;
-    padding-top: 1vh;
+    font-size: 1rem;
+    padding-top: 2.1vh;
   }
 
   .navbar {
@@ -762,8 +762,8 @@ input[type='radio'] {
   }
 
   .menuBar {
-    font-size: 30px;
-    margin-top: 10px;
+    font-size: 1.5rem;
+    margin-top: .8rem;
   }
 
   #indexBanner2 {
@@ -775,17 +775,27 @@ input[type='radio'] {
     background-color: #ffffff;
   }
 
+  .sessionTimes {
+    font-size: 3rem;
+  }
+
+  .day {
+    font-size: 2rem;
+  }
+
   .image {
     height: 100vh;
     width: 100%;
   }
 
   .mainButtons {
-    margin-top: 25px;
+    margin-top: 1.35rem;
+    text-align: center;
+    font-size: 2rem;
   }
 
   #events {
-    padding-right: 70px;
+    padding-right: 4rem;
   }
 
   .facebookButton {
@@ -801,12 +811,16 @@ input[type='radio'] {
     width: 55%;
   }
 
+  .activity, .time {
+    font-size: 1rem;
+  }
+
   #visitBanner2 {
   margin-top: -30px;
   }
 
   #aboutBanner {
-  font-size: 3rem;
+  font-size: 2.5rem;
   }
 
   #aboutBanner2 {
@@ -825,12 +839,12 @@ input[type='radio'] {
   .historyText {
     width: 80%;
     font-size: 1rem;
-    padding-bottom: 25px;
-    line-height: 25px;
+    padding-bottom: 1.25rem;
+    line-height: 1.4rem;
   }
 
   .historyParagraph {
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
 
   }
 
@@ -862,15 +876,16 @@ input[type='radio'] {
   }
 
   .sundayBanner {
+    text-align: center;
     width: 250px;
     height: 225px;
-    margin: 40px 20%;
+    margin: 2rem;
     background-color: #ffffff;
     box-shadow: -3.394px 6.122px 28.7px 6.3px rgba(0, 0, 0, 0.44);
   }
 
   .sbText {
-    padding-top: 50px;
+    padding-top: 3rem;
     font-size: 2rem;
   }
 
@@ -887,7 +902,7 @@ input[type='radio'] {
   }
 
   .map2 {
-    margin-left: 0 25px;
+    margin-left: 0 2.1rem;
   }
 
   .recentService {
@@ -916,18 +931,18 @@ input[type='radio'] {
 
   .nameChild, .emailChild {
     width: 90%; 
-    margin: 10px auto; 
+    margin: .7rem auto; 
     height: auto; 
   }
 
   .emailChild {
     float: none; 
-    margin-top: 15px;
+    margin-top: .9rem;
   }
 
   .name, .email {
   width: 85%;
-  margin: 10px auto; 
+  margin: .7rem auto; 
   font-size: 1rem;
   }
 
@@ -937,32 +952,32 @@ input[type='radio'] {
 
   .message {
   width: 85%;
-  margin: 10px auto; 
+  margin: .7rem auto; 
   font-size: 1rem;
   }
 
   .submit {
-    margin: 20px auto;
+    margin: 1.2rem auto;
     padding: 0.5rem 2rem;
   }
 
   .nameEmailNumberParent1 {
     height: auto;
     width: 100%;
-    margin: 10px auto;
+    margin: .7rem auto;
     
 }
 
 .nameParent1, .emailParent1, .numberParent1 {
     width: 140%;
     height: auto;
-    margin: 15px -20px;
+    margin: .9rem -1.25rem;
 }
 
 .name1, .email1, .number1 {
     width: 90%;
-    margin: 10px auto;
-    height: 40px;
+    margin: .7rem auto;
+    height: 1.5rem;
     font-size: 1rem;
 }
 
@@ -970,7 +985,9 @@ input[type='radio'] {
     flex-direction: column;
     height: auto;
     width: 140%;
-    margin: 15px -20px; 
+    margin: 1.25rem -1.25rem; 
+    text-align: center;
+    padding-bottom: 1rem;
 }
 
 
