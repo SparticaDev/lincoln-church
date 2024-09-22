@@ -40,6 +40,14 @@ body {
   cursor: pointer;
 }
 
+.menuBar1 {
+  position: relative;
+  font-size: 1.5rem;
+  float: right;
+  margin-top: 2vh;
+  margin-left: 1vw;
+}
+
 .menuBar:hover, .thanksHomeBtn:hover, .sidenav a:hover {
   color: lightgray
 
@@ -532,7 +540,7 @@ footer {
 
 .sbText {
   font-size: 3.75rem;
-  padding-top: 25px;
+  padding-top: 10px;
   font-weight: 50;
   margin-bottom: -15px;
 
@@ -911,7 +919,7 @@ input[type='radio'] {
     margin-right: 1rem;
   }
 
-  .liveStreamParent {
+  .liveStreamParent, .menuBar1 {
     display: none;
   }
 
