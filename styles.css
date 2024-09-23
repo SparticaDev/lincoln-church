@@ -35,18 +35,13 @@ body {
 
 .menuBar {
   position: absolute;
-  top: 5px; 
-  left: 15px; 
-  cursor: pointer;
+  top: 20px; 
+  left: 15px;
+  color: #215a68;
+  font-size: 1.75rem;
+
 }
 
-.menuBar1 {
-  position: relative;
-  font-size: 1.5rem;
-  float: right;
-  margin-top: 2vh;
-  margin-left: 1vw;
-}
 
 .menuBar:hover, .thanksHomeBtn:hover, .sidenav a:hover {
   color: lightgray
@@ -144,10 +139,6 @@ body {
 .show {
   display: block;
   max-height: 200px;
-}
-
-.menuBar {
-  font-size: 45px;
 }
 
 .image {
@@ -872,8 +863,8 @@ input[type='radio'] {
   }
 
   .menuBar {
-    font-size: 1.5rem;
-    margin-top: .8rem;
+    font-size: 1.25rem;
+    margin-top: .25rem;
   }
 
   #indexBanner2 {
